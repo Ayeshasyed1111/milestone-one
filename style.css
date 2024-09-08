@@ -1,0 +1,79 @@
+
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    padding: 0px;
+    background-color:gray;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    background-color:black;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: gray;
+}
+
+legend {
+    font-weight:bolder;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: gray;
+    border-radius: 5px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background-color:gray;
+    color: black;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left-area,
+    .right-area {
+        width: 100%;
+    }
+
+    .bars {
+        grid-template-columns: 1fr;
+    }
+}
